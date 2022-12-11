@@ -1,0 +1,309 @@
+/* ================ MAIN CONTENT ================ */
+
+a {
+  transition: color 0.15s linear;
+}
+
+a:link,
+a:visited {
+  border-bottom: none;
+  color: #bd93f9 !important;
+}
+
+a:hover,
+a:active {
+  color: #fa638d !important;
+}
+
+main {
+  font-family: "Mona Sans", sans-serif;
+}
+
+.metadata .fa-briefcase {
+  margin-right: 0.4em;
+}
+
+.metadata .fa-location-dot {
+  margin-right: 0.3em;
+}
+
+:is(#name, #name span) {
+  display: inline-block;
+  font-family: "VC Honey Deck", sans-serif;
+}
+
+#name:hover span {
+  animation: 0.275s linear infinite alternate spin;
+  transform: translateY(-0.05em);
+}
+
+#pronouns {
+  margin-bottom: 1em;
+}
+
+#profile-items h2:last-of-type {
+  margin: 1.1em 0;
+}
+
+#profile-picture {
+  filter: drop-shadow(1px 6px 10px rgba(40, 42, 54, 0.6));
+}
+
+#profile-picture:hover {
+  animation: 1s linear -0.5s infinite bounce;
+}
+
+#footer {
+  display: inline-block;
+  margin-top: 1.4em;
+}
+
+#footer a :is(span, br) {
+  display: none;
+}
+
+#footer a svg {
+  transition: filter 0.25s ease-in-out;
+  filter: drop-shadow(1px 2px 4px rgba(40, 42, 54, 0.5));
+}
+
+#footer a:hover svg {
+  animation: 1.5s ease infinite heartbeat;
+  filter: drop-shadow(1px 4px 6px rgba(40, 42, 54, 0.75));
+}
+
+.fa-briefcase,
+.fa-location-dot {
+  color: #fb935a;
+}
+
+.fa-li,
+.fas,
+.omg-icon,
+.omg-icon path {
+  color: #f783ac;
+  fill: #f783ac;
+  stroke: #f783ac;
+}
+
+/* ================ STATUS BOX ================ */
+
+.statuslol {
+  background: #eef0f6 !important;
+  transition: box-shadow 0.25s ease-in-out;
+  box-shadow: 1px 6px 12px -5px rgba(40, 42, 54, 0.75);
+}
+
+.statuslol:hover {
+  box-shadow: 1px 16px 24px -5px rgba(40, 42, 54, 0.75);
+}
+
+.statuslol_container {
+  margin-top: 1em;
+}
+
+.statuslol_content {
+  font-size: 91.146%;
+  font-weight: 400;
+}
+
+.statuslol_content > :not(.statuslol_time) {
+  line-height: 1.42em;
+  transform: translateY(0.05em);
+}
+
+.statuslol_emoji {
+  width: 64px;
+  height: 64px;
+}
+
+.statuslol_time {
+  margin-bottom: 0.2em;
+  transform: translateY(0.45em);
+}
+
+.statuslol_time :is(a:link, a:visited) {
+  color: #111111 !important;
+}
+
+.statuslol_time :is(a:hover, a:active) {
+  color: #e34198 !important;
+}
+
+.statuslol_time a::before {
+  content: "\f017";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  margin-right: 0.36em;
+}
+
+/* ================ AT-RULES ================ */
+
+@font-face {
+  font-family: "Mona Sans";
+  src: url("https://github.githubassets.com/static/fonts/github/mona-sans.woff2")
+      format("woff2 supports variations"),
+    url("https://github.githubassets.com/static/fonts/github/mona-sans.woff2")
+      format("woff2-variations");
+  font-weight: 200 700;
+  font-stretch: 75% 125%;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(-2.5%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: none;
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.3);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  60% {
+    transform: scale(1.3);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ================ BACKGROUNDS ================ */
+/* (Thank you to www.gradientmagic.com for providing the source for these!) */
+
+body {
+  background-image: linear-gradient(
+      131deg,
+      rgba(186, 186, 186, 0.01) 0%,
+      rgba(186, 186, 186, 0.01) 16.667%,
+      rgba(192, 192, 192, 0.01) 16.667%,
+      rgba(192, 192, 192, 0.01) 33.334%,
+      rgba(48, 48, 48, 0.01) 33.334%,
+      rgba(48, 48, 48, 0.01) 50.001%,
+      rgba(33, 33, 33, 0.01) 50.001%,
+      rgba(33, 33, 33, 0.01) 66.668%,
+      rgba(182, 182, 182, 0.01) 66.668%,
+      rgba(182, 182, 182, 0.01) 83.335%,
+      rgba(211, 211, 211, 0.01) 83.335%,
+      rgba(211, 211, 211, 0.01) 100.002%
+    ),
+    linear-gradient(
+      148deg,
+      rgba(48, 48, 48, 0.01) 0%,
+      rgba(48, 48, 48, 0.01) 16.667%,
+      rgba(178, 178, 178, 0.01) 16.667%,
+      rgba(178, 178, 178, 0.01) 33.334%,
+      rgba(192, 192, 192, 0.01) 33.334%,
+      rgba(192, 192, 192, 0.01) 50.001%,
+      rgba(237, 237, 237, 0.01) 50.001%,
+      rgba(237, 237, 237, 0.01) 66.668%,
+      rgba(194, 194, 194, 0.01) 66.668%,
+      rgba(194, 194, 194, 0.01) 83.335%,
+      rgba(227, 227, 227, 0.01) 83.335%,
+      rgba(227, 227, 227, 0.01) 100.002%
+    ),
+    linear-gradient(
+      138deg,
+      rgba(146, 146, 146, 0.03) 0%,
+      rgba(146, 146, 146, 0.03) 25%,
+      rgba(33, 33, 33, 0.03) 25%,
+      rgba(33, 33, 33, 0.03) 50%,
+      rgba(46, 46, 46, 0.03) 50%,
+      rgba(46, 46, 46, 0.03) 75%,
+      rgba(172, 172, 172, 0.03) 75%,
+      rgba(172, 172, 172, 0.03) 100%
+    ),
+    linear-gradient(
+      38deg,
+      rgba(3, 3, 3, 0.03) 0%,
+      rgba(3, 3, 3, 0.03) 16.667%,
+      rgba(28, 28, 28, 0.03) 16.667%,
+      rgba(28, 28, 28, 0.03) 33.334%,
+      rgba(236, 236, 236, 0.03) 33.334%,
+      rgba(236, 236, 236, 0.03) 50.001%,
+      rgba(3, 3, 3, 0.03) 50.001%,
+      rgba(3, 3, 3, 0.03) 66.668%,
+      rgba(207, 207, 207, 0.03) 66.668%,
+      rgba(207, 207, 207, 0.03) 83.335%,
+      rgba(183, 183, 183, 0.03) 83.335%,
+      rgba(183, 183, 183, 0.03) 100.002%
+    ),
+    linear-gradient(
+      145deg,
+      rgba(20, 20, 20, 0.02) 0%,
+      rgba(20, 20, 20, 0.02) 20%,
+      rgba(4, 4, 4, 0.02) 20%,
+      rgba(4, 4, 4, 0.02) 40%,
+      rgba(194, 194, 194, 0.02) 40%,
+      rgba(194, 194, 194, 0.02) 60%,
+      rgba(34, 34, 34, 0.02) 60%,
+      rgba(34, 34, 34, 0.02) 80%,
+      rgba(71, 71, 71, 0.02) 80%,
+      rgba(71, 71, 71, 0.02) 100%
+    ),
+    linear-gradient(
+      78deg,
+      rgba(190, 190, 190, 0.02) 0%,
+      rgba(190, 190, 190, 0.02) 20%,
+      rgba(95, 95, 95, 0.02) 20%,
+      rgba(95, 95, 95, 0.02) 40%,
+      rgba(71, 71, 71, 0.02) 40%,
+      rgba(71, 71, 71, 0.02) 60%,
+      rgba(7, 7, 7, 0.02) 60%,
+      rgba(7, 7, 7, 0.02) 80%,
+      rgba(130, 130, 130, 0.02) 80%,
+      rgba(130, 130, 130, 0.02) 100%
+    ),
+    linear-gradient(
+      293deg,
+      rgba(213, 213, 213, 0.03) 0%,
+      rgba(213, 213, 213, 0.03) 20%,
+      rgba(220, 220, 220, 0.03) 20%,
+      rgba(220, 220, 220, 0.03) 40%,
+      rgba(146, 146, 146, 0.03) 40%,
+      rgba(146, 146, 146, 0.03) 60%,
+      rgba(57, 57, 57, 0.03) 60%,
+      rgba(57, 57, 57, 0.03) 80%,
+      rgba(120, 120, 120, 0.03) 80%,
+      rgba(120, 120, 120, 0.03) 100%
+    ),
+    linear-gradient(90deg, rgb(40, 42, 54), rgb(40, 42, 54));
+}
+
+.statuslol {
+  background-image: linear-gradient(
+      90deg,
+      transparent 0%,
+      transparent calc(64px + 1.33em),
+      rgba(68, 71, 90, 0.24) calc(64px + 1.33em),
+      rgba(68, 71, 90, 0.24) calc(64px + 2px + 1.33em),
+      transparent calc(64px + 2px + 1.33em),
+      transparent 100%
+    ),
+    linear-gradient(180deg, rgb(238, 240, 246) 1.5em, transparent 1.5em),
+    repeating-linear-gradient(
+      180deg,
+      rgba(68, 71, 90, 0.08) 0px,
+      rgba(68, 71, 90, 0.08) 2px,
+      transparent 2px,
+      transparent 1.296em
+    ),
+    linear-gradient(rgb(238, 240, 246), rgb(238, 240, 246)) !important;
+}
