@@ -41,10 +41,6 @@ main {
   margin-bottom: 1em;
 }
 
-#profile-items h2:last-of-type {
-  margin: 1.1em 0;
-}
-
 #profile-picture {
   filter: drop-shadow(1px 6px 10px rgba(40, 42, 54, 0.6));
 }
