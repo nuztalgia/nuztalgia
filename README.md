@@ -14,7 +14,7 @@ where i make... whatever i feel like making. i'm free now.&nbsp;
 
 <!-- prettier-ignore -->
 - <picture><img src="https://user-images.githubusercontent.com/95021853/206105805-11115d2a-be8c-4dca-a972-c94df49a2c74.svg" title="speech bubble" width=16></picture>&ensp;my name is pronounced [**/nʌztældʒə/**](http://ipa-reader.xyz/?text=n%CA%8Czt%C3%A6ld%CA%92%C9%99&voice=Kimberly) (or just **nuz**).
-- <picture><img src="https://user-images.githubusercontent.com/95021853/206105875-f22d2113-4585-4272-b967-d4394d1a81a7.svg" title="pansexual flag" width=16></picture>&ensp;i'm a [**queer cis woman**](https://en.pronouns.page/@nuztalgia). my pronouns are **she/her**.
+- <picture><img src="https://user-images.githubusercontent.com/95021853/206105875-f22d2113-4585-4272-b967-d4394d1a81a7.svg" title="pansexual flag" width=16></picture>&ensp;i'm a [**queer demi-cis woman**](https://en.pronouns.page/@nuztalgia). my pronouns are **she/they**.
 - <picture><img src="https://user-images.githubusercontent.com/95021853/206105934-a2920785-9b90-4167-ba61-fdd72f794bcc.svg" title="neurodiversity symbol" width=16></picture>&ensp;i'm **neurodivergent** and greatly appreciate [**tone tags**](https://tonetags.carrd.co/).
 - <picture><img src="https://user-images.githubusercontent.com/95021853/206389466-0fe25bca-71dd-4aa1-9aa2-b5205261d701.svg" title="rose" width=16></picture>&ensp;i love implementing **beautiful** and **accessible** user interfaces.
 - <picture><img src="https://user-images.githubusercontent.com/95021853/206106127-6aab8a87-a4ed-446a-9ee0-3bdd1febd52d.svg" title="snake" width=16></picture>&ensp;i'm kind of a polyglot, but my all-time fave language is **python**.
