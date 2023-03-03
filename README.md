@@ -24,7 +24,7 @@ where i make... whatever i feel like making. i'm free now.&nbsp;
 <picture><img src="https://user-images.githubusercontent.com/95021853/206097184-f175cfb8-c78b-48c6-93d8-6d3e256fb930.png" title="a potato holding a magnifying glass"  width=32></picture>&ensp;you can also find me on...
 </h3>
 
-&emsp;&emsp;<a href="https://mastodon.lol/@nuz" rel="me"><img src="https://user-images.githubusercontent.com/95021853/206097533-0c04d7a5-c377-4795-9d3d-029cf8605b9f.svg" title="mastodon" width=30></a>
+&emsp;&emsp;<a href="https://cutie.city/@nuz" rel="me"><img src="https://user-images.githubusercontent.com/95021853/206097533-0c04d7a5-c377-4795-9d3d-029cf8605b9f.svg" title="mastodon" width=30></a>
 &emsp;
 <a href="https://cohost.org/nuz" rel="me"><img src="https://user-images.githubusercontent.com/95021853/206100065-c4e6c121-23ad-4f9e-a986-d0610e28d5af.svg" title="cohost" width=32></a>
 &emsp;
