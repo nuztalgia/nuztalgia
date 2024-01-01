@@ -137,7 +137,8 @@ main {
 
 @font-face {
   font-family: "Mona Sans";
-  src: url("https://github.githubassets.com/static/fonts/github/mona-sans.woff2")
+  src:
+    url("https://github.githubassets.com/static/fonts/github/mona-sans.woff2")
       format("woff2 supports variations"),
     url("https://github.githubassets.com/static/fonts/github/mona-sans.woff2")
       format("woff2-variations");
