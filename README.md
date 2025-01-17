@@ -26,8 +26,6 @@ where i make... whatever i feel like making. i'm free now.&nbsp;
 
 &emsp;&emsp;<a href="https://cutie.city/@nuz" rel="me"><img src="https://user-images.githubusercontent.com/95021853/206097533-0c04d7a5-c377-4795-9d3d-029cf8605b9f.svg" title="mastodon" width=30></a>
 &emsp;
-<a href="https://cohost.org/nuz" rel="me"><img src="https://user-images.githubusercontent.com/95021853/206100065-c4e6c121-23ad-4f9e-a986-d0610e28d5af.svg" title="cohost" width=32></a>
-&emsp;
 <a href="https://gitlab.com/nuztalgia" rel="me"><img src="https://user-images.githubusercontent.com/95021853/206099185-645eba22-f2da-4691-878f-25017baf1263.svg" title="gitlab" width=28></a>
 &emsp;
 <a href="https://pypi.org/user/nuztalgia/" rel="me"><img src="https://user-images.githubusercontent.com/95021853/206101659-ec29381b-f5a9-4541-b823-052e645e17b8.svg" title="pypi" width=32></a>
@@ -39,4 +37,4 @@ where i make... whatever i feel like making. i'm free now.&nbsp;
 ---
 
 <!-- prettier-ignore -->
-**image sources**&ensp;•&ensp;[**mutant standard emoji**](https://mutant.tech/)&ensp;•&ensp;[**simple icons**](https://simpleicons.org/)&ensp;•&ensp;[**lost in potato**](https://discord.gg/tato)&ensp;•&ensp;[**cohost**](https://cohost.org/)&ensp;•&ensp;**thank you 💜**
+**image sources**&ensp;•&ensp;[**mutant standard emoji**](https://mutant.tech/)&ensp;•&ensp;[**simple icons**](https://simpleicons.org/)&ensp;•&ensp;[**lost in potato**](https://discord.gg/tato)&ensp;•&ensp;**thank you 💜**
